@@ -1,0 +1,3 @@
+# Reflexión
+
+La estructura `switch` conviene cuando se necesita elegir entre varias opciones específicas, como las operaciones de una calculadora. En cambio, `if` permite evaluar condiciones y rangos. Dividir el código en funciones pequeñas facilita la comprensión, las pruebas y el mantenimiento. Cada función puede resolver una tarea concreta y devolver un resultado mediante `return`. Para esta actividad utilicé ChatGPT como apoyo para comprender los requisitos, organizar el código y revisar las pruebas de los ejercicios.

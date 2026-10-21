@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora básica</h1>
+
+    <form id="formulario">
+        <label for="numeroA">Primer número:</label>
+        <input type="number" id="numeroA" step="any" required>
+
+        <label for="operador">Operación:</label>
+        <select id="operador" required>
+            <option value="+">Suma (+)</option>
+            <option value="-">Resta (−)</option>
+            <option value="*">Multiplicación (×)</option>
+            <option value="/">División (÷)</option>
+        </select>
+
+        <label for="numeroB">Segundo número:</label>
+        <input type="number" id="numeroB" step="any" required>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    <p id="resultado" aria-live="polite"></p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificador de notas</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Clasificador de notas</h1>
+
+    <form id="formulario">
+        <label for="nota">Ingresa una nota de 0 a 10:</label>
+        <input type="number" id="nota" min="0" max="10"
+               step="any" required>
+        <button type="submit">Clasificar</button>
+    </form>
+
+    <p id="resultado" aria-live="polite"></p>
+</body>
+</html>
